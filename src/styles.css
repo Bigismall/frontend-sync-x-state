@@ -1,0 +1,29 @@
+body {
+    max-width: 960px;
+}
+.card {
+    display: block;
+    width: 420px;
+    padding: 10px;
+    height: auto;
+    border: 1px solid cornflowerblue;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+figure,
+figure img {
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+}
+
+footer {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
