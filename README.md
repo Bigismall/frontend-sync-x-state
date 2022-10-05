@@ -1,6 +1,11 @@
 # xstate-demo
 
-Empty project.
+Just a simply (pure TypeScript and HTML) of the [x-state](https://xstate.js.org/) machine usage.
+Fell free to use  [X-state visualiser](https://stately.ai/viz) to display `machine` definition from [index.tsx](src/index.ts) file, to see it in action
+
+P.S. This repo is the second part of the state management story (Frontend sync). First part available here: https://github.com/Bigismall/frontend-sync-state-reducers
+
+![machine visualisation](doc/machine-visualisation.png)
 
 ## Building and running on localhost
 

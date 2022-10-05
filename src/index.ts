@@ -65,7 +65,7 @@ const machine = createMachine<ToggleContext, ToggleEvent>({
           actions: assign((context, event) => ({
             ...context,
             isLoading: false,
-            uri: event.data.image,
+            uri: event?.data?.image ?? '',    //IT's just for visualiser to work
           })),
           target: States.enabled,
         },
